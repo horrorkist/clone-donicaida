@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 200px;
+}
+
+.projects-wrapper {
+    width: 100%;
+    max-width: 100%;
+}
+
+.label-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.project-header {
+    all: unset;
+    border-top: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.project-header:hover {
+    font-style: italic;
+}
+
+.label-wrapper label:first-child,
+.project button span:first-child {
+    width: 10%;
+}
+
+.label-wrapper label:nth-child(2),
+.project .project-header span:nth-child(2) {
+    width: 40%;
+}
+
+.label-wrapper label:last-child,
+.project .project-header span:last-child {
+    width: 50%;
+}
